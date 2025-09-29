@@ -76,7 +76,7 @@ return (
               {item.texto}
               <View>
                 {item.completed ? '✅' : '🟩'}
-                <Button title="🗑️" onPress={() => eliminarTarea(item.id)} />
+                <Button title="🚀" onPress={() => eliminarTarea(item.id)} />
               </View>
             </Text>
           </View>
